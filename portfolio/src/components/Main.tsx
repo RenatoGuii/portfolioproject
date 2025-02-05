@@ -10,11 +10,11 @@ export const Main: React.FC = () => {
             <div>
                 <section>
                     <div className="flex flex-col items-center px-16 pt-16 pb-6">
-                        <h1 className="font-rationale font-bold text-5xl lg:text-6xl tracking-wider">
+                        <h1 className="font-rationale font-bold text-5xl lg:text-6xl tracking-wider text-center">
                             Desenvolvedor Full-Stack
                         </h1>
 
-                        <p className="font-rationale mt-3 mb-4 text-xl lg:text-2xl tracking-wider">
+                        <p className="font-rationale mt-3 mb-4 text-xl lg:text-2xl tracking-wider text-center">
                             Desenvolvo aplicações web e amo o que faço. 
                         </p>
 
@@ -40,7 +40,7 @@ export const Main: React.FC = () => {
 
                         <div className="flex flex-col items-center px-24px pt-80px pb-224px">
 
-                            <h1 className="font-rationale text-white font-semibold text-2xl mb-5">Olá, meu nome é Renato. Prazer em conhecê-lo. </h1>
+                            <h1 className="font-rationale text-white font-semibold text-2xl mb-5 text-center">Olá, meu nome é Renato. Prazer em conhecê-lo. </h1>
 
                             <p className="font-rationale text-white text-xl text-center max-w-760px">
                                 Desde que concluí minha formação em Análise e Desenvolvimento de Sistemas, após 3 anos de dedicação aos estudos, tenho me dedicado a explorar o vasto mundo da tecnologia, em especial, o desenvolvimento web. Durante esse período, adquiri conhecimentos em desenvolvimento de software e soluções inovadoras para diversos tipos de problema.

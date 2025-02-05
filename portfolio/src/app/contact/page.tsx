@@ -25,11 +25,16 @@ export default function ContactPage () {
         formData.append("email", values.email);
         formData.append("message", values.message);
 
-        await service.saveEmail(formData);
-        resetForm();
+        if (await service.saveEmail(formData) !== 200) {
+            setLoading(false)
+            notification.notify("Serviço indisponível no momento", "error");
+        } else {
+            resetForm();
 
-        setLoading(false)
-        notification.notify("Email enviado com sucesso!", "success");
+            setLoading(false)
+            notification.notify("Email enviado com sucesso!", "success");
+        }
+
     }
 
     const formik = useFormik<FormProps>({
