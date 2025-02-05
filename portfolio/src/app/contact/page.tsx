@@ -7,13 +7,17 @@ import { useFormik } from "formik";
 import { FormProps, formScheme, formValidationScheme } from "./formScheme";
 import { FieldError, useNotification, Loading } from "@/components";
 import { useEmailService } from "@/resources/emails";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ToastContainer } from "react-toastify";
 
 export default function ContactPage () {
     const [loading, setLoading] = useState<boolean>(false);
     const notification = useNotification();
     const service = useEmailService();
+
+    useEffect(() => {
+        notification.notify("Devido ao servidor ser de hospedagem gratuita, é possível que demore cerca de 1 a 2 minutos após apertar o botão de enviar, para o funcionamento rápido e regular do envio de emails", "info");
+    }, [])
 
     const handleSubmit = async (values: FormProps, { resetForm }: any) => {
 
@@ -149,7 +153,7 @@ export default function ContactPage () {
 
             <ToastContainer 
             position='top-right' 
-            autoClose={8000}
+            autoClose={10000}
             hideProgressBar={false}
             draggable={false}
             closeOnClick={true}
