@@ -1,0 +1,8 @@
+services:
+  portfolioapp:
+    build:
+      dockerfile: Dockerfile
+#    image: renatoguii/imageliteproject:sbootapp # Usando imagem do Docker Hub
+    container_name: portfolioapi
+    ports:
+      - "8080:8080"
