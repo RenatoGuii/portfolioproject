@@ -1,11 +1,15 @@
 import { FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa"
 import { MdEmail } from "react-icons/md"
 
-export const Footer: React.FC = () => {
+interface FooterProps {
+    isFixed?: string;
+}
+
+export const Footer: React.FC<FooterProps> = ({isFixed}: FooterProps) => {
     return (
         <>
             <footer>
-                <div className="flex flex-col justify-center items-center p-5 bg-DarkCyan">
+                <div className={`flex flex-col justify-center items-center p-5 bg-DarkCyan ${isFixed}`}>
 
                     <img src="img/logo.png" alt="logo" className="w-14 mb-5"/>
 
