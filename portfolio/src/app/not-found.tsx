@@ -34,7 +34,7 @@ export default function NotFoundPage() {
                 </div>
             </main>
 
-            <Footer isFixed="fixed bottom-0 w-full" />
+            <Footer fixedStyle="fixed bottom-0 w-full" />
         </>
     )
 }

@@ -151,7 +151,7 @@ export const Main: React.FC = () => {
                                     <li>JWT</li>
                                     <li>Docker</li>
                                     <li>Swagger</li>
-                                    <li>InteliJ</li>
+                                    <li>IntelliJ</li>
                                 </ul>
                             </div>
                         </div>
@@ -170,7 +170,7 @@ export const Main: React.FC = () => {
                                     className="w-80 transition-opacity duration-1000 group-hover:opacity-0"
                                 />
 
-                                <div className="font-rationale text-white text-center absolute opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                                <div className="font-rationale text-white text-center absolute opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                                     <p>Estagiário de Desenvolvimento</p>
                                     <p className="mb-3">Julho de 2023 - Agosto de 2023</p>
                                     <a className="font-rationale text-DarkCyan bg-white px-4 py-2 tracking-widest font-semibold rounded-2xl hover:text-white hover:bg-DarkCyan outline hover:outline-white duration-700 text-sm"
