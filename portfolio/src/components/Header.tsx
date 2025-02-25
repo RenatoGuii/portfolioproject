@@ -9,6 +9,8 @@ export const Header: React.FC = () => {
                     <a href="/"><img src="/img/logo.png" alt="icone" className="w-12" /></a>
                 </div>
 
+                {/*
+                
                 <div>
                     <Link href="/contact">
                         <button 
@@ -18,6 +20,9 @@ export const Header: React.FC = () => {
                         </button>
                     </Link>
                 </div>
+
+                */}
+
             </div>
         </header>
      </>   
