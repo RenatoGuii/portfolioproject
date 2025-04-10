@@ -87,10 +87,11 @@ export const Main: React.FC = () => {
                                     <li>ReactJS</li>
                                     <li>Next.js</li>
                                     <li>Tailwind CSS</li>
+                                    <li>shadcn/ui</li>
                                 </ul>
 
                                 <p  className="font-rationale text-lg tracking-wide font-semibold text-blue-700 mt-6">
-                                    Dev tools:
+                                    Outras Ferramentas:
                                 </p>
 
                                 <ul className="font-rationale tracking-wide font-semibold w-full text-center">
@@ -131,6 +132,7 @@ export const Main: React.FC = () => {
                                 <ul className="font-rationale tracking-wide font-semibold w-full text-center">
                                     <li>Spring Framework</li>
                                     <li>JPA / Hibernate</li>
+                                    <li>JUnit e Mockito</li>
                                 </ul>
 
                                 <p  className="font-rationale text-lg tracking-wide font-semibold text-blue-700 mt-6">
@@ -144,7 +146,7 @@ export const Main: React.FC = () => {
                                 </ul>
 
                                 <p  className="font-rationale text-lg tracking-wide font-semibold text-blue-700 mt-6">
-                                    Dev tools:
+                                    Outras Ferramentas:
                                 </p>
 
                                 <ul className="font-rationale tracking-wide font-semibold w-full text-center">
@@ -202,12 +204,13 @@ export const Main: React.FC = () => {
 
                 <section className="-mt-48">
                     <div className="mx-6 grid grid-cols-1 gap-5 lg:grid-cols-2 xl:grid-cols-3 xl:w-1232px xl:mx-auto ">
+                        <CardProject title="FaturaFlow" subtitle="Aplicação Full-Stack de gerencimento de faturas pessoais com dashboards" githubLink="https://github.com/RenatoGuii/faturaflow"/>
+
                         <CardProject title="Image Lite" subtitle="Aplicação Full-Stack de gerencimento de imagens e autenticação JWT" githubLink="https://github.com/RenatoGuii/imageliteproject"/>
 
                         <CardProject title="Desafio PicPay" subtitle="Aplicação de API de gerenciamento de transações financeiras entre usuários" githubLink="https://github.com/RenatoGuii/picpaysimplificado"/>
 
                         <CardProject title="Serviço de Email" subtitle="Aplicação de API de gerenciamento de envios de email" githubLink="https://github.com/RenatoGuii/email-service-challenge"/>
-
                     </div>
 
                     <div >
