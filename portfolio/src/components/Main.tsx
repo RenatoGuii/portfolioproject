@@ -22,7 +22,7 @@ export const Main: React.FC = () => {
                             <img src="/img/mf-avatar.svg" alt="avatar"/>
                         </div>
 
-                        <a href="files/CV.pdf" download="cvRenatoGuimaraes.pdf">
+                        <a href="files/CV.pdf" download="RenatoGuimaraes_DevFullStack.pdf">
                             <button className="font-rationale text-white bg-DarkCyan px-4 py-2 tracking-widest font-semibold rounded-2xl hover:text-DarkCyan hover:bg-white outline hover:outline-DarkCyan duration-700 mt-5">
                                 Baixar CV
                             </button>
@@ -142,7 +142,6 @@ export const Main: React.FC = () => {
                                 <ul className="font-rationale tracking-wide font-semibold w-full text-center">
                                     <li>MySQL</li>
                                     <li>PostgreSQL</li>
-                                    <li>MongoDB</li>
                                 </ul>
 
                                 <p  className="font-rationale text-lg tracking-wide font-semibold text-blue-700 mt-6">
